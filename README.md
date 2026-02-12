@@ -1,25 +1,31 @@
 # TuPrimeraPagina+Cornacchione
 
-Proyecto Web en Django (patrón MVT) tipo blog.
+Proyecto desarrollado en Django utilizando patrón MVT
 
-## Funcionalidades (requisitos)
-- Herencia de plantillas HTML (base.html + templates que extienden)
-- Modelos (3 clases): Autor, Categoria, Post
+## Funcionalidades
+- Herencia de plantillas HTML 
+- Modelos: Autor, Categoria, Post
 - Formularios para cargar datos en cada modelo
-- Formulario de búsqueda en BD (Post por título)
+- Formulario de búsqueda en BD
 
 ## Cómo ejecutar
-1) Crear entorno e instalar dependencias:
-- python -m venv venv
-- activar venv
-- pip install -r requirements.txt
+Paso 1:
+Abrir PowerShell y posicionarse en la carpeta del proyecto:
+- cd Desktop\TuPrimeraPagina+Cornacchione
+- Ejecutar.
 
-2) Migraciones:
-- python manage.py makemigrations
-- python manage.py migrate
+Paso 2:
+Activar el entorno virtual: A continuacion en PowerShell pegá lo siguiente
+- .\venv\Scripts\activate
+- Ejecutar.
 
-3) Correr servidor:
+Paso 3:
+Ejecutar el servidor de Django:
 - python manage.py runserver
+
+Paso 4:
+Abrir tu navegador favorito y copiar la siguiente dirección:
+- http://127.0.0.1:8000/
 
 ## Orden recomendado para probar
 1) Crear Autor: /autor/nuevo/
