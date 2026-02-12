@@ -27,6 +27,9 @@ Paso 4:
 Abrir tu navegador favorito y copiar la siguiente dirección:
 - http://127.0.0.1:8000/
 
+Paso 5:
+Detener el servidor: mientras el servidor se esté ejecutando en PowerShell, presionar CTRL + C.
+
 ## Orden recomendado para probar
 1) Crear Autor: /autor/nuevo/
 2) Crear Categoría: /categoria/nueva/
