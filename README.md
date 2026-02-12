@@ -31,7 +31,7 @@ Paso 5:
 Detener el servidor: mientras el servidor se esté ejecutando en PowerShell, presionar CTRL + C.
 
 ## Orden recomendado para probar
-1) Crear Autor: /autor/nuevo/
-2) Crear Categoría: /categoria/nueva/
-3) Crear Post: /post/nuevo/
-4) Buscar Post: /post/buscar/
+1) Crear Autor
+2) Crear Categoría
+3) Crear Post
+4) Buscar Post
